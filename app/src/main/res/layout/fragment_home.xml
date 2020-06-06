@@ -20,7 +20,7 @@
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
             <TextView
-                android:id="@+id/textViewEmail"
+                android:id="@+id/textViewHomeEmail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
@@ -37,7 +37,7 @@
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
             <TextView
-                android:id="@+id/textViewName"
+                android:id="@+id/textViewHomeName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
@@ -54,7 +54,7 @@
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
             <TextView
-                android:id="@+id/textViewSchool"
+                android:id="@+id/textViewHomeSchool"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />

@@ -51,14 +51,14 @@ public class SettingsFragment extends Fragment implements View.OnClickListener{
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        editTextEmail = view.findViewById(R.id.editTextEmail);
-        editTextName = view.findViewById(R.id.editTextName);
-        editTextSchool = view.findViewById(R.id.editTextSchool);
+        editTextEmail = view.findViewById(R.id.editTextSettingsEmail);
+        editTextName = view.findViewById(R.id.editTextSettingsName);
+        editTextSchool = view.findViewById(R.id.editTextSettingsSchool);
 
-        editTextCurrentPassword = view.findViewById(R.id.editTextCurrentPassword);
-        editTextNewPassword = view.findViewById(R.id.editTextNewPassword);
+        editTextCurrentPassword = view.findViewById(R.id.editTextSettingsCurrentPassword);
+        editTextNewPassword = view.findViewById(R.id.editTextSettingsNewPassword);
 
-        view.findViewById(R.id.buttonSave).setOnClickListener(this);
+        view.findViewById(R.id.buttonSettingsSave).setOnClickListener(this);
         view.findViewById(R.id.buttonChangePassword).setOnClickListener(this);
         view.findViewById(R.id.buttonLogout).setOnClickListener(this);
         view.findViewById(R.id.buttonDelete).setOnClickListener(this);
@@ -67,7 +67,7 @@ public class SettingsFragment extends Fragment implements View.OnClickListener{
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.buttonSave:
+            case R.id.buttonSettingsSave:
                 updateProfile();
                 break;
             case R.id.buttonChangePassword:

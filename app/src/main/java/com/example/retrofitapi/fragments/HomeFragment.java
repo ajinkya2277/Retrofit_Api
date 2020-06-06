@@ -29,9 +29,9 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_home, container, false);
-        textViewEmail = view.findViewById(R.id.textViewEmail);
-        textViewName = view.findViewById(R.id.textViewName);
-        textViewSchool = view.findViewById(R.id.textViewSchool);
+        textViewEmail = view.findViewById(R.id.textViewHomeEmail);
+        textViewName = view.findViewById(R.id.textViewHomeName);
+        textViewSchool = view.findViewById(R.id.textViewHomeSchool);
 
         textViewEmail.setText(SharedPrefManager.getInstance(getActivity()).getUser().getEmail());
         textViewName.setText(SharedPrefManager.getInstance(getActivity()).getUser().getName());
